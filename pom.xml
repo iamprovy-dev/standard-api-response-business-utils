@@ -12,10 +12,10 @@
     </parent>
 
     <groupId>zw.saas.validation</groupId>
-    <artifactId>api-validation-response-utils</artifactId>
+    <artifactId>standard-api-response-business-utils</artifactId>
     <version>1.0.0</version>
-    <name>api-validation-response-utils</name>
-    <description>Api Response and Validation Base wrapper</description>
+    <name>standard-api-response-business-utils</name>
+    <description>Standardized API Response and Validation Utilities for Spring Boot</description>
     <url/>
     <licenses>
         <license>
@@ -49,10 +49,10 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/iamprovy-dev/classify-saas.git</connection>
-        <developerConnection>scm:git:git@github.com:iamprovy-dev/classify-saas.git</developerConnection>
+        <connection>scm:git:https://github.com/iamprovy-dev/standard-api-response-business-utils.git</connection>
+        <developerConnection>scm:git:git@github.com:iamprovy-dev/standard-api-response-business-utils.git</developerConnection>
         <tag>HEAD</tag>
-        <url>https://github.com/iamprovy-dev/classify-saas</url>
+        <url>https://github.com/iamprovy-dev/standard-api-response-business-utils</url>
     </scm>
     <properties>
         <java.version>17</java.version>
@@ -110,6 +110,6 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>api-validation-logic</finalName>
+        <finalName>standard-api-response-business-utils</finalName>
     </build>
 </project>

@@ -12,15 +12,28 @@ This library provides a complete solution for building RESTful APIs with:
 - **Custom Validators** - Jakarta Bean Validation annotations
 - **Utility Classes** - BigDecimal operations and more
 
-## Maven Dependency
+## Installation
+
+Add JitPack repository and the dependency to your `pom.xml`:
 
 ```xml
-<dependency>
-    <groupId>zw.saas.validation</groupId>
-    <artifactId>api-validation-response-utils</artifactId>
-    <version>1.0.0</version>
-</dependency>
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.github.iamprovy-dev</groupId>
+        <artifactId>standard-api-response-business-utils</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+</dependencies>
 ```
+
+> **Note**: Check JitPack for the latest version. Visit: https://jitpack.io/#iamprovy-dev/standard-api-response-business-utils
 
 ## Table of Contents
 
@@ -779,7 +792,7 @@ public class GlobalExceptionHandler extends zw.saas.validation.responses.excepti
 ## Project Information
 
 - **Group ID**: zw.saas.validation
-- **Artifact ID**: api-validation-response-utils
+- **Artifact ID**: standard-api-response-business-utils
 - **Version**: 1.0.0
 - **Java Version**: 17+
 - **Spring Boot Version**: 3.3.2
