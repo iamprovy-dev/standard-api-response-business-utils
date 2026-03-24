@@ -1,7 +1,7 @@
 package zw.saas.validation.responses.enums;
 
 public enum IdentityTypes {
-    NATIONAL_ID,
     PASSPORT,
+    NATIONAL_ID,
     DRIVER_LICENSE
 }
