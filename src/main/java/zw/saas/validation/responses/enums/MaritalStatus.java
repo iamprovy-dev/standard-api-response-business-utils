@@ -1,7 +1,8 @@
 package zw.saas.validation.responses.enums;
 
 public enum MaritalStatus {
-    MALE,
-    FEMALE,
-    OTHER
+    SINGLE,
+    MARRIED,
+    DIVORCED,
+    WIDOWED
 }
