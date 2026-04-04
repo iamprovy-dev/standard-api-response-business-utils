@@ -28,7 +28,7 @@ Add JitPack repository and the dependency to your `pom.xml`:
     <dependency>
         <groupId>com.github.iamprovy-dev</groupId>
         <artifactId>standard-api-response-business-utils</artifactId>
-        <version>1.0.0</version>
+        <version>4.0.0</version>
     </dependency>
 </dependencies>
 ```
