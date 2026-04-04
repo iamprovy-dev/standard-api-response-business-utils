@@ -29,7 +29,7 @@ public abstract class BaseClass implements Serializable {
     private LocalDateTime modifiedAt;
 
     @CreatedBy
-    @Column(updatable = false)
+    @Column(updatable = false, name = "created_by")
     @Setter(AccessLevel.NONE)  // Prevent setter generation
     private UUID createdBy;
 
